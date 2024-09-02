@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: ff9f1c;
+}
+
+.navbar-2 {
+    width: 100%;
+    height: 80px;
+
+}
+
+#log img {
+    font-size: 1.75rem;
+}
+
+#navbarSupportedContent .collectionss {
+    margin-left: 3.75rem;
+}
+
+#navbarSupportedContent .collectionss:hover::after {
+    background-color: #F18701;
+    color: #fff;
+
+}
+
+#navbarSupportedContent .collectionss li {
+    padding: 0px 15px;
+    margin-top: 0.50rem;
+
+
+}
+
+#navbarSupportedContent .collectionss li:hover:after {
+    width: 100%;
+}
+
+.collectionss li .span-1 {
+    color: #EBA843;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+.collectionss li .span-1:hover {
+
+    color: black;
+}
+
+
+.icon {
+    display: flex;
+    margin-left: 5rem;
+
+
+}
+
+.icon-result {
+    /* margin-left: 220px;*/
+    gap: 2rem;
+    display: flex;
+
+    margin-left: 5rem;
+
+}
+
+.icon-result .icon-1 {
+    margin-top: 5px;
+}
+
+
+.icon-result .img2 {
+    width: 50px;
+    margin-left: 4rem;
+
+
+
+
+}
+
+.img-content .imgg {
+    width: 65%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+
+}
+
+/* .icon-img{
+    display: flex;
+  
+   
+
+
+.icon-img .imggg{
+    border-radius: 1rem;
+    margin-top: 27px;
+  width: 85px;
+  height: auto;
+  margin-left: 2.50rem;
+  background-size: cover;
+} */
+.img-item .img-10 {
+    width: 90px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    margin-left: 3rem;
+}
+
+.explore {
+    text-align: center;
+}
+
+.explore .btn1 {
+    margin: 25px 0 0;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 10px 15px;
+    color: black;
+    transition: 0.5s;
+
+}
+
+.btn1:hover {
+    background-color: #EBA843;
+    color: #fff;
+    transform: translateY(-10px);
+}
+
+.snaker-item .snaker1 {
+    font-family: serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.price {
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.price p {
+    background-color: black;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 0.25rem;
+}
+
+.sale-item {
+    width: 35%;
+    height: 30%;
+
+
+    background-color: aliceblue;
+    border-radius: 1rem;
+
+
+}
+
+.sale-item .icc {
+    color: #F18701;
+}
+
+.sale-item .btn {
+    margin-left: 1rem;
+    margin-top: 0.25rem;
+
+}
+
+.sale-button {
+    margin-left: 1rem;
+
+}
+
+.sale-button .ic {
+    margin-right: 16px;
+    margin-left: 10px;
+
+}
+
+.sale-button .btn {
+    padding: 10px 20px;
+}
+
+/* men section */
+
+.men-section h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.men-section .span-men {
+    color: #F18701;
+}
+
+.men-item {
+    background-size: cover;
+}
+
+
+
+
+
+
+.women-section .span-women {
+    color: #F18701;
+}
+
+.women-img .card {
+    height: 60%;
+}
+
+.form-item #name {
+    width: 90%;
+    height: 30px;
+    border: none;
+    /* border-radius: 8px; */
+}
+
+.form-item #textarea {
+    width: 85%;
+}
+
+.bg-icon {
+    background: #F18701;
+}
+
+.contact-info .span1-women {
+    color: #F18701;
+}
+
+.span2-women {
+    color: #F18701;
+}
+
+.icon-text .ice {
+    font-size: 39px;
+    padding: 0 19px;
+    color: #F18701;
+}
+
+.bagg-bag {
+    background-image: url(images/image-product-2.jpg);
+    background-size: cover;
+    background-repeat:
+        no-repeat;
+}
+
+.ft-list p {
+    font-weight: 400;
+    font-size: 17px;
+    color: #fff;
+}
+
+.form-item input {
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    padding:
+        0 9px;
+    height: 37px;
+    margin-left: 5px;
+}
+
+.form-item .btn-0 {
+    border: 2px solid black;
+    transition: 0.7s;
+    border-radius: 5px;
+    background-color: #000;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    padding: 7px 15px;
+
+}
+
+.form-item .btn-0:hover {
+    transform: translateY(-3px);
+}
+
+
+.footer-last .ahsan {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.footer-last.ahsan.ft-last1 {
+    color: #F18701;
+
+}
